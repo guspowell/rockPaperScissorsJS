@@ -17,3 +17,7 @@ var Game = function() {
 Game.prototype.addPlayer = function (player) {
   this.players.push(player)
 };
+
+Game.prototype.computerChoice = function () {
+  return this.choices[Math.floor(Math.random() * this.choices.length)];
+};

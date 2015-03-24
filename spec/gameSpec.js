@@ -6,6 +6,7 @@ describe("game", function() {
   beforeEach(function() {
     game = new Game();
     player = new Player('gus');
+    spyOn(game, "computerChoice").and.returnValue('rock')
   });
 
   describe('defaults', function() {
@@ -25,6 +26,15 @@ describe("game", function() {
     it('should be able to add a player to the game', function() {
       game.addPlayer(player);
       expect(game.players[0].name).toEqual('gus');
+    });
+
+  });
+
+  describe('computer choice', function() {
+
+    it('the computer should be able to choose from the options', function() {
+      expect(game.computerChoice()).toEqual('rock')
+      console.log(game.computerChoice());
     });
 
   });

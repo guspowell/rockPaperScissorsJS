@@ -12,5 +12,5 @@ describe("player", function() {
     player.pickOption('paper');
     expect(player.choice).toEqual('paper');
   });
-
+  
 });
