@@ -1,6 +1,6 @@
 #Rock Paper Scissors in Javascript
 
-To practive Javascript further, I decided to redo the Rock Paper Scissors challenge in Javascript.
+To practive Javascript further, I decided to redo the [Rock Paper Scissors](https://github.com/guspowell/rock_paper_scissors) challenge in Javascript.
 
 ## Technologies
 - Javascript
